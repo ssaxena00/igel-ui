@@ -2,7 +2,12 @@
   "name": "igel-ui",
   "version": "0.0.1",
   "description": "GUI app for igel",
-  "keywords": ["igel", "machine learning", "artificial intelligence", "data science"],
+  "keywords": [
+    "igel",
+    "machine learning",
+    "artificial intelligence",
+    "data science"
+  ],
   "author": "Nidhal Baccouri <nidhalbacc@gmail.com>",
   "license": "Apache-2.0",
   "main": "main.js",

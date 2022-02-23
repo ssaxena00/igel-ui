@@ -14,7 +14,7 @@ function getTrainingParams () {
     var modelType = document.getElementById('model-type').value;
     var algorithm = document.getElementById('algorithm').value;
     var target = document.getElementById('target').value;
-    
+
     var datasetOptions = {
         type: "csv",
         split: {
@@ -93,11 +93,10 @@ function sendToPython(arg) {
         scriptPath: pyPath,
         args: [arg]
     }
-    
+
     var igel = python.PythonShell.run('main.py', options, (err, msg) => {
         if (err) throw err;
         console.log("msg : ", msg);
     });
-  
-  }
 
+  }

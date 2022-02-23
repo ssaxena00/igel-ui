@@ -6,7 +6,7 @@ function createWindow () {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
-    icon: __dirname + './assets/logo.jpg',
+    icon: __dirname + './assets/logo_vflow_straight.png',
     webPreferences: {
       nodeIntegration: true
     }
